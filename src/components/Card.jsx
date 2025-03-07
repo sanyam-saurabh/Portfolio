@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import watch from "../assets/WristWear.png";
 
 const Card = () => {
   return (
@@ -13,13 +12,6 @@ const Card = () => {
       }}
       class="max-w-[350px] sm:max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      {/* <a href="hello">
-        <img
-          class="rounded-t-lg w-full"
-          src={watch}
-          alt=""
-        />
-      </a> */}
       <div className="w-full h-48 overflow-hidden">
         <iframe
           src="https://sanyam-saurabh.github.io/WristWearVault/"

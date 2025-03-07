@@ -1,8 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import movieland from "../assets/movieland.png";
-
 const Card = () => {
   return (
     <motion.div

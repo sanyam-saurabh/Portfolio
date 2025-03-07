@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import Card from "../components/Card";
 import Card2 from "../components/Card2";
 import { ThemeContext } from "../themeProvider";
+import MyAniBase from "../components/MyAniBase";
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -20,8 +21,9 @@ const Projects = () => {
           What I Built
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
-          <Card />
+          <MyAniBase/>
           <Card2 />
+          <Card />
         </div>
         <a
           href="https://sanyam-saurabh.github.io/Frontend-Projects/"

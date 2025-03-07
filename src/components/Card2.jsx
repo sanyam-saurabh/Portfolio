@@ -12,18 +12,22 @@ const Card = () => {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
       }}
-      class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
+      class="max-w-[350px] sm:max-w-sm bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <img
-        class="rounded-t-lg w-full h-48 object-contain"
-        src={movieland}
-        alt=""
-      />
+      <div className="w-full h-48 overflow-hidden">
+        <iframe
+          src="https://sanyam-saurabh.github.io/MovieLand-/"
+          className=" top-0 left-0 w-full h-[500px] scale-[0.9] origin-top"
+          style={{ pointerEvents: "none", border: "none" }}
+          title="Embedded Website"
+        ></iframe>
+      </div>
       <div class="p-5">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           MovieLaLand
         </h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 overflow-hidden"
+        >
           An Interface with integrated API for faster movie searches.
         </p>
         <a
